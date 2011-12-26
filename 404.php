@@ -10,6 +10,6 @@ get_header();
 			</div>
 		</div>
 	</div>
-	<?php include (TEMPLATEPATH . '/side-column-index.php'); ?>
+	<?php include (TEMPLATEPATH . '/sidebar.php'); ?>
 </div>
 <?php get_footer(); ?>

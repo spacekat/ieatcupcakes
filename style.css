@@ -54,7 +54,7 @@ img {
 	line-height:1.2em;
 }
 .entry a,.secondary-column a,#comments-container h3 a,.comment-list .comment-author a {
-	color:#333;
+	color:#C4A7C0;
 }
 .entry a:hover,.secondary-column a:hover,#comments-container h3 a:hover,.comment-list .comment-author a:hover,.comment-list .comment-meta a:hover {
 	color:#C4A7C0;
@@ -86,7 +86,7 @@ img {
 	font-size:0.8em;
 }
 #commentform p span input,#commentform span textarea {
-	color:#333;
+	color:#C4A7C0;
 	font-family:arial,verdana,sans-serif;
 	font-size:1em;
 }
@@ -106,13 +106,10 @@ img {
 }
 #masthead {
 	padding:0;
-	border-top:10px solid #8E7D8C;
+	border-top:10px solid #756774;
 }
 .logo {
-	background:#1c1c1b url(images/footer-bg.png) top left repeat-x;
   margin: -60px 0 0;
-}
-#filler {
 }
 #main-column {
 	float:left;
@@ -215,18 +212,22 @@ img {
 	margin: 15px 0;
 }
 /* -------------- Sidebar (widget-friendly) -------------- */
-.sidebar {
+#sidebar {
   padding-left:40px;
+  float: left;
 }
-.sidebar ul {
-  list-style: none;
-  margin: 0;
+#sidebar ul {
+  list-style-type: none;
+  margin: 0 0 20px;
   padding: 0;
 }
-.sidebar ul li {
+#sidebar ul li {
   margin: 0 0 5px;
 }
-
+#sidebar h2 {
+  margin: 0 0 20px;
+  font-weight:normal;
+}
 .widgetContainer {
 	margin:0 0 20px 0;
 }
@@ -374,9 +375,9 @@ img {
 }
 /* -------------- Footer -------------- */
 #footer {
-	background:#1c1c1b url(images/footer-bg.png) top left repeat-x;
-	color:#D4BED2;
-	margin:0;
+	background:#D4BED2;
+  color:#fff;
+	margin:20px 0 0;
 	padding:40px 0 190px 0;
 	font-size:11px;
 }
@@ -385,12 +386,12 @@ img {
 	margin:0 auto;
 }
 #footer a,#footer a:link,#footer a:visited {
-	color:#FCF7FF;
+	color:#fff;
 	font-weight:bold;
 	text-decoration:none;
 }
 #footer a:hover {
-	color: #999;
+	color: #FFF;
 }
 #footer-pad {
 	padding: 0 20px;

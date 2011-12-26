@@ -43,6 +43,5 @@ Template Name: Archive Index
 		<?php endwhile; else: ?>
 		<?php endif; ?>
 	</div>
-	<?php include (TEMPLATEPATH . '/side-column-post.php'); ?>
-</div>
+	<?php include (TEMPLATEPATH . '/sidebar.php'); ?>
 <?php get_footer(); ?>
