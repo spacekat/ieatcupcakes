@@ -36,6 +36,6 @@ get_header();
 			<p><span class="left"><?php previous_posts_link('&laquo; Previous') ?></span> <span class="right"><?php next_posts_link('Next &raquo;') ?></span></p>
 		</div>
 	</div>
-	<?php include (TEMPLATEPATH . '/side-column-index.php'); ?>
+	<?php include (TEMPLATEPATH . '/sidebar.php'); ?>
 </div>
 <?php get_footer(); ?>

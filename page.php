@@ -13,6 +13,6 @@ get_header();
 		<?php endwhile; else: ?>
 		<?php endif; ?>
 	</div>
-	<?php include (TEMPLATEPATH . '/side-column-post.php'); ?>
+	<?php include (TEMPLATEPATH . '/sidebar.php'); ?>
 </div>
 <?php get_footer(); ?>

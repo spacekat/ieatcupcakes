@@ -1,11 +1,9 @@
 /*  
 
-Theme Name: Theophilus
-Theme URI: http://www.iamtimothylong.com/theophilus/
-Description: Minimal Wordpress Theme
+Theme Name: I Eat Cupcakes
+Description: A Yummy Vegan Wordpress Theme
 Version: 1.0
-Author: Timothy Long
-Author URI: http://www.iamtimothylong.com/
+Author: jessicaspacekat
 Tags: white, grid, whitespace, minimal, clean, widgets
 
 */
@@ -108,8 +106,10 @@ img {
 }
 #masthead {
 	padding:0;
+	border-top:10px solid #8E7D8C;
 }
 .logo {
+	background:#1c1c1b url(images/footer-bg.png) top left repeat-x;
   margin: -60px 0 0;
 }
 #filler {
@@ -215,34 +215,18 @@ img {
 	margin: 15px 0;
 }
 /* -------------- Sidebar (widget-friendly) -------------- */
-.secondary-column h3 {
-	margin:0 0 10px 0;
-	padding:7px 0;
-	color:#C4A7C0;
+.sidebar {
+  padding-left:40px;
 }
-.secondary-column ul {
-	list-style-type:none;
-	border-top:1px solid #e6e3e3;
-	margin:0;
-	padding:0;
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-.secondary-column ul li {
-	padding:5px 0;
-	font-size:11px;
-	margin:0;
-	border-bottom:1px solid #e6e3e3;
+.sidebar ul li {
+  margin: 0 0 5px;
 }
-.secondary-column ul li a {
-	font-size:11px;
-	font-weight:normal;
-	color:#C4A7C0;
-	padding:0;
-	margin:0;
-	text-decoration:none;
-}
-.secondary-column ul li a:hover {
-	color:#999;
-}
+
 .widgetContainer {
 	margin:0 0 20px 0;
 }
