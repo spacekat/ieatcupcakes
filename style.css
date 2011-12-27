@@ -134,6 +134,7 @@ img {
 }
 /* -------------- Post Meta -------------- */
 .post-meta {
+  background-color: #FCF7FF;
 	margin-right:40px;
 	width:150px;
 	float:left;
@@ -222,12 +223,27 @@ img {
   padding: 0;
 }
 #sidebar ul li {
-  margin: 0 0 5px;
+  padding: 0 0 4px;
 }
 #sidebar h2 {
   margin: 0 0 20px;
   font-weight:normal;
 }
+#sidebar #categories li {
+  padding 0 0 8px;
+}
+#sidebar #categories li a {
+  font-size: 14px;
+  background: #F4F4F2;
+  padding: 4px 6px;
+  color: #C4A7C0;
+}
+#sidebar #categories li a:hover,
+#sidebar #categories li.current-cat a {
+  background: #FFEFD6;
+  color: #625360;
+}
+
 .widgetContainer {
 	margin:0 0 20px 0;
 }

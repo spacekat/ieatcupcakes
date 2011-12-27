@@ -1,14 +1,12 @@
 <?php
 ?>
-<div class="secondary-column">
-	<?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar('Sidebar - Index') ) : else : ?>
-	<?php endif; ?>
-</div>
 <div id="sidebar">
 
+	<?php include (TEMPLATEPATH . '/searchform.php'); ?>
+
 <ul>
-<li id="categories"><h2><?php _e('Categories'); ?></h2>
-	<ul>
+<li id="categories">
+  <ul>
 	<?php wp_list_cats(array('order' => 'DESC','orderby' => 'ID',)); ?>
 	</ul>
 </li>
